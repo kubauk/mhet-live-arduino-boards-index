@@ -14,10 +14,10 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "MH-ET LIVE",
-          "url": "https://github.com/MHEtLive/MHEtLiveArduino/releases/download/1.0.0/mhetlive-avr-1.0.0.zip",
-          "archiveFileName": "mhetlive-avr-1.0.0.zip",
-          "checksum": "SHA-256:59e226d3d3d758ec1e56f49048d64dbb5239328e95e5143e53bf764ca77ac062",
-          "size": "150248",
+          "url": "https://github.com/kubauk/MHEtLiveArduino/releases/download/v1.1.0/mhetlive-avr-v1.1.0.zip",
+          "archiveFileName": "mhetlive-avr-1.1.0.zip",
+          "checksum": "SHA-256:0de4f8839b47702b2af0657e02db70253b358a1e48ea8e87185d9d1d81b13d41",
+          "size": "151171",
           "help": {
             "online": "https://github.com/MHEtLive/MHEtLive-Boards/issues"
           },
