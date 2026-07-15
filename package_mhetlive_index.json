@@ -49,14 +49,14 @@
               "host": "arm64-apple-darwin",
               "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
               "url": "https://github.com/micronucleus/micronucleus/releases/download/v2.6/micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
-              "checksum": "SHA-256:05e5f766c1bfa721f0557cfb0d4ef40f36582aa454357f855030f42caca27fe0",
+              "checksum": "",
               "size": "52523"
             },
             {
               "host": "x86_64-apple-darwin",
               "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
               "url": "https://github.com/micronucleus/micronucleus/releases/download/v2.6/micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
-              "checksum": "SHA-256:d82e21019623e1091b65b1d3ef9df6794628f416caebc78b4df5f8a02a6cfa02",
+              "checksum": "",
               "size": "52523"
             }
           ]
