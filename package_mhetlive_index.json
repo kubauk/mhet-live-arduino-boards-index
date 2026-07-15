@@ -1,15 +1,15 @@
 {
-   "packages":[
-      {
-         "name":"mhetlive",
-         "maintainer":"MH-ET LIVE",
-         "websiteURL":"http://mh.nodebb.com/",
-         "email":"support@digistump.com",
-         "help":{
-            "online":"http://mh.nodebb.com/"
-         },
-         "platforms":[
-         {
+  "packages": [
+    {
+      "name": "mhetlive",
+      "maintainer": "MH-ET LIVE",
+      "websiteURL": "http://mh.nodebb.com/",
+      "email": "support@digistump.com",
+      "help": {
+        "online": "http://mh.nodebb.com/"
+      },
+      "platforms": [
+        {
           "name": "MH-ET LIVE Boards",
           "architecture": "avr",
           "version": "1.0.0",
@@ -30,53 +30,38 @@
             {
               "packager": "arduino",
               "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
+              "version": "7.3.0-atmel3.6.1-arduino7"
             },
             {
               "packager": "mhetlive",
               "name": "micronucleus",
-              "version": "2.0a4"
+              "version": "2.5-azd1b"
             }
           ]
         }
-         ],
-         "tools":[
+      ],
+      "tools": [
+        {
+          "name": "micronucleus",
+          "version": "2.5-azd1b",
+          "systems": [
             {
-             "name": "micronucleus",
-             "version": "2.0a4",
-             "systems": [
-               {
-                 "host": "x86_64-apple-darwin",
-                 "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
-                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
-                 "size": "51203"
-               },
-               {
-                 "host": "i686-mingw32",
-                 "archiveFileName": "micronucleus-2.0a4-win.zip",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
-                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
-                 "size": "1712005"
-               },
-               {
-                 "host": "i686-linux-gnu",
-                 "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
-                 "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
-                 "size": "21909"
-               },
-               {
-                 "host": "x86_64-linux-gnu",
-                 "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
-                 "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
-                 "size": "22874"
-               }
-
-             ]
-           },
-           {
+              "host": "arm64-apple-darwin",
+              "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
+              "url": "https://github.com/micronucleus/micronucleus/releases/download/v2.6/micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
+              "checksum": "SHA-256:05e5f766c1bfa721f0557cfb0d4ef40f36582aa454357f855030f42caca27fe0",
+              "size": "52523"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
+              "url": "https://github.com/micronucleus/micronucleus/releases/download/v2.6/micronucleus-cli-master-882e7b4a-x86_64-Darwin.zip",
+              "checksum": "SHA-256:d82e21019623e1091b65b1d3ef9df6794628f416caebc78b4df5f8a02a6cfa02",
+              "size": "52523"
+            }
+          ]
+        },
+        {
           "name": "arm-none-eabi-gcc",
           "version": "4.8.3-2014q1",
           "systems": [
@@ -144,7 +129,7 @@
             }
           ]
         }
-        ]
-      }
-   ]
+      ]
+    }
+  ]
 }
