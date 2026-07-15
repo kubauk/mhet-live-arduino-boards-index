@@ -12,12 +12,12 @@
         {
           "name": "MH-ET LIVE Boards",
           "architecture": "avr",
-          "version": "1.1.0",
+          "version": "v1.1.0",
           "category": "MH-ET LIVE",
           "url": "https://github.com/kubauk/MHEtLiveArduino/releases/download/v1.1.0/mhetlive-avr-v1.1.0.zip",
-          "archiveFileName": "mhetlive-avr-1.1.0.zip",
-          "checksum": "SHA-256:0de4f8839b47702b2af0657e02db70253b358a1e48ea8e87185d9d1d81b13d41",
-          "size": "151171",
+          "archiveFileName": "mhetlive-avr-v1.1.0.zip",
+          "checksum": "SHA-256:0301c947b4d0f365e8d2a8200cdecb9e096a8f621e1ea3afa6922f153ce8a73e",
+          "size": "153385",
           "help": {
             "online": "https://github.com/MHEtLive/MHEtLive-Boards/issues"
           },
